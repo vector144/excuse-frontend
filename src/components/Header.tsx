@@ -1,11 +1,11 @@
 import { Github, Linkedin } from "lucide-react";
-
+  
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-white/10 shadow-sm border-b border-white/20">
       <div className="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
         <span className="text-white font-semibold text-xl tracking-wide flex FunGroovy ">
-          <img src="./images/laptop.svg" width={25} className="mr-1" />{" "}
+          <img src="./images/laptop.svg" width={25} className="mr-1" />
           BlameShift
         </span>
 
