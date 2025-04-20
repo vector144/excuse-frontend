@@ -9,7 +9,7 @@ const ExcuseBox = () => {
   const fetchExcuse = async () => {
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:3000/excuse");
+      const res = await fetch("https://dev-excuse-api.onrender.com/excuse");
       const data = await res.json();
       setExcuse(data.excuse);
     } catch (err) {
